@@ -1,3 +1,9 @@
+## 1.1.3 (2022-02-15)
+
+### Refactor
+
+- **[cae-62](https://linear.app/caesari/issue/cae-62)**: updating upload script [3fb1f](https://github.com/ThimDeveloper/cz-github-linear-conventional/commit/3fb1f22efce6e3fd0bad28b15c76f2e707a0327c)
+
 ## 1.1.2 (2022-02-15)
 
 ### Refactor
