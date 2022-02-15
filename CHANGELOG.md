@@ -1,3 +1,16 @@
+## 1.1.2 (2022-02-15)
+
+### Refactor
+
+- **[cae-62](https://linear.app/caesari/issue/cae-62)**: aligning versions [7b04a](https://github.com/ThimDeveloper/cz-github-linear-conventional/commit/7b04a48e132b65bc9f4b3db4104a045d3a42bf55)
+- **[cae-62](https://linear.app/caesari/issue/cae-62)**: reset version in setup.py [4f711](https://github.com/ThimDeveloper/cz-github-linear-conventional/commit/4f71151a3133cb433da95a39837269279eb58427)
+- **[cae-62](https://linear.app/caesari/issue/cae-62)**: updating version file [2f7e6](https://github.com/ThimDeveloper/cz-github-linear-conventional/commit/2f7e6512525121ba9fee57b838999e7be92a3223)
+
+### Fix
+
+- **[cae-62](https://linear.app/caesari/issue/cae-62)**: fixing consistency check for version [27b51](https://github.com/ThimDeveloper/cz-github-linear-conventional/commit/27b5176765b69ec3452d8338c529a4af56d42925)
+- **[cae-62](https://linear.app/caesari/issue/cae-62)**: adding version check [acdc3](https://github.com/ThimDeveloper/cz-github-linear-conventional/commit/acdc33a0fd04c7e21894ca25e9ff78deb38106c1)
+
 ## 1.1.1 (2022-02-15)
 
 ### Fix
