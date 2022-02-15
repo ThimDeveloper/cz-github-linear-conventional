@@ -33,7 +33,7 @@ def main():
         os.system("python -m  twine upload -r caesari dist/* --config-file ~/.pypirc")
     elif answers == "release":
         os.system("black .")
-        os.system("cz bump -ch")
+        os.system("cz bump -ch --check-consistency")
 
 
 if __name__ == "__main__":
