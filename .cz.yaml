@@ -1,6 +1,6 @@
 commitizen:
+  github_repo: ThimDeveloper/cz-github-linear-conventional
+  linear_base_url: https://linear.app/caesari
   name: cz_github_linear_conventional
   tag_format: $version
-  version: 1.0.1
-  linear_base_url: https://linear.app/caesari
-  github_repo: ThimDeveloper/cz-github-linear-conventional
+  version: 1.1.0
