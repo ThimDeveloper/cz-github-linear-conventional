@@ -17,12 +17,12 @@ When you call commitizen `commit` the scope is assumed from the current active b
 
 The changelog created by cz (`cz bump --changelog`)will contain links to the commits in Github and the Jira issues.
 ```markdown
-## v1.0.0 (2021-08-06)
+## 1.1.0 (2022-02-15)
 
-### Features
+### Feat
 
-- **[XX-123](https://myproject.atlassian.net/browse/XX-123)**: create changelogs with links to issues and commits [a374b](https://github.com/apheris/cz-github-jira-conventional/commit/a374b93f39327964f5ab5290252b795647906008)
-- **[XX-42](https://myproject.atlassian.net/browse/XX-42),[XX-13](https://myproject.atlassian.net/browse/XX-13)**: allow multiple issue to be referenced in the commit [07ab0](https://github.com/apheris/cz-github-jira-conventional/commit/07ab0e09de36712ab1db93fff0c821ecd80b5849)
+- **[cae-62](https://linear.app/caesari/issue/cae-62)**: adding support for linear issue ids [8adc3](https://github.com/ThimDeveloper/cz-github-linear-conventional/commit/8adc39bc0cb35fff07f5c9c4b906b1b3eefd3f56)
+
 ``` 
 
 
