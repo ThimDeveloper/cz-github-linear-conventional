@@ -28,8 +28,12 @@ def main():
         os.system("rm dist/*")
         os.system("python setup.py sdist bdist_wheel")
     elif answers == "upload pypi":
+        os.system("rm dist/*")
+        os.system("python setup.py sdist bdist_wheel")
         os.system("python -m  twine upload dist/*")
     elif answers == "upload jfrog":
+        os.system("rm dist/*")
+        os.system("python setup.py sdist bdist_wheel")
         os.system("python -m  twine upload -r caesari dist/* --config-file ~/.pypirc")
     elif answers == "release":
         os.system("black .")
