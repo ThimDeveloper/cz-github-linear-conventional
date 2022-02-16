@@ -15,7 +15,7 @@ When you call commitizen `commit` the scope is assumed from the current active b
 ...
 ```
 
-The changelog created by cz (`cz bump --changelog`)will contain links to the commits in Github and the Jira issues.
+The changelog created by cz (`cz bump --changelog`)will contain links to the commits in Github and the Linear issues.
 ```markdown
 ## 1.1.0 (2022-02-15)
 
@@ -31,7 +31,7 @@ The changelog created by cz (`cz bump --changelog`)will contain links to the com
 Install with pip
 `python -m pip install cz-github-linear-conventional` 
 
-You need to use a cz config file that has the **required** additional values `jira_base_url` and `github_repo`. The scope or prefix for your linear issues will automatically be parsed from the current active branch and added to the commit message. This allows for automatic linking by the linear.app bot if that is set up for your linear project.
+You need to use a cz config file that has the **required** additional values `linear_base_url` and `github_repo`. The scope or prefix for your linear issues will automatically be parsed from the current active branch and added to the commit message. This allows for automatic linking by the linear.app bot if that is set up for your linear project.
 
 Example `.cz.yaml` config for this repository
 ```yaml
