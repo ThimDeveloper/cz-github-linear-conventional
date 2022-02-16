@@ -1,3 +1,9 @@
+## 1.1.4 (2022-02-16)
+
+### Fix
+
+- **[cae-63](https://linear.app/caesari/issue/cae-63)**: patching readme to force bump [6ab4f](https://github.com/ThimDeveloper/cz-github-linear-conventional/commit/6ab4fc9dff643a879363d68cc2510ed55ad58217)
+
 ## 1.1.3 (2022-02-15)
 
 ### Refactor
