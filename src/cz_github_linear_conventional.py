@@ -3,7 +3,6 @@ import re
 from typing import Any, Dict, List
 
 from commitizen import defaults, git, config
-from commitizen.cz.exceptions import AnswerRequiredError
 from commitizen.cz.base import BaseCommitizen, BaseConfig
 from commitizen.cz.utils import multiple_line_breaker, required_validator
 from commitizen.cz.exceptions import CzException
@@ -41,13 +40,13 @@ class GithubLinearConventionalCz(BaseCommitizen):
         quit()
     linear_base_url = conf.settings["linear_base_url"]
     github_repo = conf.settings["github_repo"]
-    # if "change_type_map" not in conf.settings:
-    change_type_map = {
-        "feat": "Feat",
-        "fix": "Fix",
-        "refactor": "Refactor",
-        "perf": "Perf",
-    }
+    if "change_type_map" not in conf.settings:
+        change_type_map = {
+            "feat": "Feat",
+            "fix": "Fix",
+            "refactor": "Refactor",
+            "perf": "Perf",
+        }
 
     def questions(self) -> List[Dict[str, Any]]:
         questions: List[Dict[str, Any]] = [
