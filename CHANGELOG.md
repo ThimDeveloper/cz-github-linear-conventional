@@ -1,3 +1,13 @@
+## 1.2.0 (2022-02-23)
+
+### Fix
+
+- **[cae-70](https://linear.app/caesari/issue/cae-70)**: lowered required python version to >=3.6 [72a73](https://github.com/ThimDeveloper/cz-github-linear-conventional/commit/72a73f1fbf916107e03c218fdfa6b63656fcf12a)
+
+### Feat
+
+- **[cae-66](https://linear.app/caesari/issue/cae-66)**: adding master workflow to auto bump version [10d94](https://github.com/ThimDeveloper/cz-github-linear-conventional/commit/10d94b7b2bd47534e787d83571bd64f5dd09cc8d)
+
 ## 1.1.4 (2022-02-16)
 
 ### Fix
