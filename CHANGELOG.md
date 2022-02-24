@@ -1,3 +1,9 @@
+## 1.3.0 (2022-02-24)
+
+### Feat
+
+- **[cae-71](https://linear.app/caesari/issue/cae-71)**: adding support for automatic Test-PyPi and PyPi upload [f6aee](https://github.com/ThimDeveloper/cz-github-linear-conventional/commit/f6aee07e8f167280c512459772c13c0ed87186c6)
+
 ## 1.2.1 (2022-02-24)
 
 ### Fix
