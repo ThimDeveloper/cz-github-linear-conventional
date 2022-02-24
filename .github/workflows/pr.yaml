@@ -1,4 +1,4 @@
-name: Bump version
+name: Check bump version workflow for pull requests
 
 on:
   pull_request:
@@ -8,8 +8,8 @@ on:
 jobs:
   bump-version:
     if: "!startsWith(github.event.head_commit.message, 'bump:')"
-    runs-on: ubuntu-latest
-    name: "Bump version and create changelog with commitizen"
+    runs-on: ubuntu-20.04
+    name: "(Dry-run) Bump version and create changelog with commitizen"
     steps:
       - name: Check out
         uses: actions/checkout@v2
@@ -17,7 +17,7 @@ jobs:
           token: "${{ secrets.PERSONAL_ACCESS_TOKEN }}"
           fetch-depth: 0
       - id: cz
-        name: Create bump and changelog
+        name: (Dry-run) Create bump and changelog
         uses: commitizen-tools/commitizen-action@master
         with:
           github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
@@ -27,6 +27,6 @@ jobs:
           push: false
           commit: false
           dry_run: true
-      - name: Print Version
+      - name: (Dry-run) Print Version
         if: ${{ steps.cz.outputs.version }}
         run: echo "cz-github-linear-conventional will be bumped to version ${{ steps.cz.outputs.version }}"
