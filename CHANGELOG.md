@@ -1,3 +1,9 @@
+## 1.4.0 (2022-02-24)
+
+### Feat
+
+- **[cae-71](https://linear.app/caesari/issue/cae-71)**: move publishing to separate workflow that should ensure it runs on master changelog updates only [0152b](https://github.com/ThimDeveloper/cz-github-linear-conventional/commit/0152b899870f51f0db6111a8b64440c69d9e8059)
+
 ## 1.3.1 (2022-02-24)
 
 ### Fix
