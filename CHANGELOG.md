@@ -1,3 +1,9 @@
+## 1.4.1 (2022-02-24)
+
+### Fix
+
+- **[cae-71](https://linear.app/caesari/issue/cae-71)**: removing wrong job dependency [190a5](https://github.com/ThimDeveloper/cz-github-linear-conventional/commit/190a5e11e16b39402c5f5e514e546675673b299d)
+
 ## 1.4.0 (2022-02-24)
 
 ### Feat
