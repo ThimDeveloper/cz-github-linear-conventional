@@ -1,3 +1,9 @@
+## 1.3.1 (2022-02-24)
+
+### Fix
+
+- **[cae-71](https://linear.app/caesari/issue/cae-71)**: adding install script for wheel and setuptools dependencies [82210](https://github.com/ThimDeveloper/cz-github-linear-conventional/commit/82210e39d1d52946d202d876cdfc33dfdee687e0)
+
 ## 1.3.0 (2022-02-24)
 
 ### Feat

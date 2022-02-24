@@ -9,7 +9,7 @@ with open(path.join(this_directory, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="cz_github_linear_conventional",
-    version="1.3.0",
+    version="1.3.1",
     py_modules=["cz_github_linear_conventional"],
     install_requires=["commitizen"],
     long_description=long_description,
