@@ -29,4 +29,4 @@ jobs:
           dry_run: true
       - name: Print Version
         if: ${{ steps.cz.outputs.version }}
-        run: echo "cz-github-linear-conventional is bumped to version ${{ steps.cz.outputs.version }}"
+        run: echo "cz-github-linear-conventional will be bumped to version ${{ steps.cz.outputs.version }}"
