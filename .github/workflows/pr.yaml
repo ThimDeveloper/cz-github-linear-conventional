@@ -1,7 +1,7 @@
 name: Bump version
 
 on:
-  push:
+  pull_request:
     branches:
       - master
 
@@ -23,6 +23,10 @@ jobs:
           github_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           extra_requirements: "cz-github-linear-conventional"
           commitizen_version: latest
+          changelog: false
+          push: false
+          commit: false
+          dry_run: true
       - name: Print Version
         if: ${{ steps.cz.outputs.version }}
-        run: echo "cz-github-linear-conventional is bumped to version ${{ steps.cz.outputs.version }}"
+        run: echo "cz-github-linear-conventional will be bumped to version ${{ steps.cz.outputs.version }}"
