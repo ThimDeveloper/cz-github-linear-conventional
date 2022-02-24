@@ -1,3 +1,10 @@
+## 1.2.1 (2022-02-24)
+
+### Fix
+
+- **[cae-70](https://linear.app/caesari/issue/cae-70)**: updated master action to use latest commitizen version [054e4](https://github.com/ThimDeveloper/cz-github-linear-conventional/commit/054e4e3095005d747ff325014cc4bcf92532f085)
+- **[cae-70](https://linear.app/caesari/issue/cae-70)**: adding PR dry-run for github bump action [7c467](https://github.com/ThimDeveloper/cz-github-linear-conventional/commit/7c467388135a5fe2703369c8e2edcf30289b7dd2)
+
 ## 1.2.0 (2022-02-23)
 
 ### Fix
